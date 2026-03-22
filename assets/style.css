@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  border: 2px solid black;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+.lista {
+  max-width: 400px;
+  margin-left: auto;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.tachado {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.eliminar {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  margin-left: 10px;
+}
